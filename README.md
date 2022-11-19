@@ -1,2 +1,2 @@
 # 24 Hours Alarm Clock
-Click[here]()to see the project.
+Click [here](https://mian-azam.github.io/alarm-clock/) to see the project.
