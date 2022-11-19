@@ -15,7 +15,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #b20e24, #ff9659);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     background-size: cover;
     transition: all 0.25s ease-in-out;
 }
@@ -34,6 +34,16 @@ body {
 
 h1 {
     font-size: 120px;
+}
+
+.check {
+    height: 30px;
+    font-size: 30px;
+}
+
+.alarm-set {
+    height: 30px;
+    font-size: 20px;
 }
 
 button {
@@ -59,6 +69,10 @@ button:hover {
     transition: all 0.1s ease-in-out;
 }
 
+button+button {
+    margin-left: 10px;
+}
+
 input {
     width: 100px;
     height: 48px;
@@ -67,8 +81,8 @@ input {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
-    color: #fff;
+    color: #f0f2f4;
     text-align: center;
 }
