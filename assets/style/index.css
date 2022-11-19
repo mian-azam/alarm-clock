@@ -42,8 +42,8 @@ h1 {
 }
 
 .alarm-set {
-    height: 30px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 30px;
 }
 
 button {
@@ -51,20 +51,20 @@ button {
     height: 50px;
     margin: 10px 0;
     text-align: center;
-    background-color: #c71576;
-    border: 1px solid #c715b2;
+    background-color: #c7b215;
+    border: 1px solid #c78915;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 0.2px;
     transition: all 0.25s ease-in-out;
-    color: #fff;
+    color: var(--app-dark-bg);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #b20e4d;
+    background-color: #0e79b2;
     border: 1px solid var(--app-red);
     transition: all 0.1s ease-in-out;
 }
@@ -77,12 +77,12 @@ input {
     width: 100px;
     height: 48px;
     padding: 0 15px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(34, 13, 13, 0.1);
+    background-color: rgba(206, 208, 83, 0.3);
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
     font-size: 20px;
     font-weight: 400;
-    color: #f0f2f4;
+    color: var(--app-dark-bg);
     text-align: center;
 }
