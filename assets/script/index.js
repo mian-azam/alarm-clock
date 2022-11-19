@@ -43,6 +43,7 @@ function validate() {
     else {
         check.innerText = 'Alarm set for:';
         setAlarm.innerText = userInput.value;
+        userInput.value = '';
     }
 }
 
